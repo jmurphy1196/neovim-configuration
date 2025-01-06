@@ -19,3 +19,6 @@ keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
+
+-- toggleterm
+keymap.set("n", "<leader>tt", ":ToggleTerm<CR>", { desc = "Open ToggleTerm" })

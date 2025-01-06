@@ -9,6 +9,7 @@ discipline.cowboy()
 
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
+
 --  select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
 -- Split window
